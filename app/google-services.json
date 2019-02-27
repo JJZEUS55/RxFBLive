@@ -1,0 +1,239 @@
+{
+  "project_info": {
+    "project_number": "400566353350",
+    "firebase_url": "https://answerquestion-2eacb.firebaseio.com",
+    "project_id": "answerquestion-2eacb",
+    "storage_bucket": "answerquestion-2eacb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:400566353350:android:bafbe88c19679a14",
+        "android_client_info": {
+          "package_name": "com.example.go_sharp.answer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "400566353350-jpf6noujnj6cucp1jfs7j9ah9egfl6q4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.go_sharp.answer",
+            "certificate_hash": "fdac8bd0f24be1a87322788381e206b575c313f7"
+          }
+        },
+        {
+          "client_id": "400566353350-n9u4p98v6vpmv3rlvust2hh8lc759jlm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZNDbg2TB4Z6xUyF4v__beIwJJB7xccDY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "400566353350-n9u4p98v6vpmv3rlvust2hh8lc759jlm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:400566353350:android:b08b7898fda3fe9c",
+        "android_client_info": {
+          "package_name": "com.example.go_sharp.answerquestion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "400566353350-rr1p9s4o8r9thgih6j2c0vuth1avnbeo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.go_sharp.answerquestion",
+            "certificate_hash": "fdac8bd0f24be1a87322788381e206b575c313f7"
+          }
+        },
+        {
+          "client_id": "400566353350-n9u4p98v6vpmv3rlvust2hh8lc759jlm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZNDbg2TB4Z6xUyF4v__beIwJJB7xccDY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "400566353350-n9u4p98v6vpmv3rlvust2hh8lc759jlm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:400566353350:android:470dcbb7b317dc0a",
+        "android_client_info": {
+          "package_name": "com.rxjava2.android.samples"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "400566353350-bvm0p9nu6rejhmkrnap1o238l9bgr409.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rxjava2.android.samples",
+            "certificate_hash": "1bd094e3812fc79705ecfc6fda3e9962295dc489"
+          }
+        },
+        {
+          "client_id": "400566353350-n9u4p98v6vpmv3rlvust2hh8lc759jlm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZNDbg2TB4Z6xUyF4v__beIwJJB7xccDY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "400566353350-n9u4p98v6vpmv3rlvust2hh8lc759jlm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:400566353350:android:f22537801d2dfa46",
+        "android_client_info": {
+          "package_name": "hidrosina.gshp.net.pre_alpha_hidrosina"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "400566353350-0t8tvghh3u6b82pklf2qrvd4rjrha8m9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "hidrosina.gshp.net.pre_alpha_hidrosina",
+            "certificate_hash": "7fef031288e58ef8ee3984bb9e53ddadbf8c0a1f"
+          }
+        },
+        {
+          "client_id": "400566353350-btcdd13h78bjbl1de8d3osfd1i2bgu04.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "hidrosina.gshp.net.pre_alpha_hidrosina",
+            "certificate_hash": "86f8c43253f72bedb508935d71ae40756515d7cf"
+          }
+        },
+        {
+          "client_id": "400566353350-n9u4p98v6vpmv3rlvust2hh8lc759jlm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZNDbg2TB4Z6xUyF4v__beIwJJB7xccDY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "400566353350-n9u4p98v6vpmv3rlvust2hh8lc759jlm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:400566353350:android:9714c39d2ac5f70c",
+        "android_client_info": {
+          "package_name": "redes.com.pruebaanswer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "400566353350-b7bcqmkgfv3hvq92ofik7phkvb7bv54c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "redes.com.pruebaanswer",
+            "certificate_hash": "d73186fb83aefcf21f5c4fedf2bec029dc7ce757"
+          }
+        },
+        {
+          "client_id": "400566353350-n9u4p98v6vpmv3rlvust2hh8lc759jlm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZNDbg2TB4Z6xUyF4v__beIwJJB7xccDY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "400566353350-n9u4p98v6vpmv3rlvust2hh8lc759jlm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

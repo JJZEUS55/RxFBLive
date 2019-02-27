@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_insert"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="INSERTAR" />
+
+            <Button
+                android:id="@+id/btn_delete"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BORRAR" />
+
+            <Button
+                android:id="@+id/btn_select_one"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="JUST ONE" />
+
+            <Button
+                android:id="@+id/btn_select_all"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SELECT ALL" />
+
+            <Button
+                android:id="@+id/btn_insert_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="INSERT LIST ALL" />
+
+            <Button
+                android:id="@+id/btn_select_firebase"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SELECT FIREBASE" />
+
+            <TextView
+                android:id="@+id/txt_data_movies"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="LISTA" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
