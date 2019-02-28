@@ -1,6 +1,7 @@
 package com.rxjava2.android.samples.ui.Room;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -115,23 +116,46 @@ public class Botones extends AppCompatActivity {
         });
 
         btnSelectFB.setOnClickListener(v -> {
-            Flowable<RxFirebaseChildEvent<DataSnapshot>> flowable = RxFirebaseDatabase.observeChildEvent(MyApplication.getDatabaseFB().getReference().child(Const.home))
+        RxFirebaseDatabase.observeChildEvent(MyApplication.getDatabaseFB().getReference().child(Const.home))
+                    .subscribeOn(Schedulers.io())
+                    .observeOn(AndroidSchedulers.mainThread())
                     .doOnNext(rxData -> {
                         DataSnapshot dataSnapshot = rxData.getValue();
                         List<Movies> movies = new ArrayList<>();
-                        DataSnapshot child = dataSnapshot.child("data");
+//                         Movies movies1 = new Movies();
+//                         movies1.setMovieName(dataSnapshot.getValue().toString());
+
+//                         movies.add(movies1);
+                        Log.e("tempFlow", dataSnapshot.getKey() + "  "  +dataSnapshot.getValue().toString()  +  " " + dataSnapshot.getChildren());
 
                         for (DataSnapshot temp :
-                                child.getChildren()
+                                dataSnapshot.getChildren()
                         ) {
+                            Log.e("tempFlow", temp.getValue().toString());
                             Movies movies1 = new Movies();
                             movies1.setMovieName(temp.getValue(String.class));
-                            List
+                            movies.add(movies1);
+////                            List
+//
+                        }
 
+                        Log.e("flowableList", movies.toString());
+
+                        switch (rxData.getEventType()){
+                            case ADDED:
+                                txtDataMovies.append(movies.toString());
+                                break;
+                            case CHANGED:
+                                txtDataMovies.append(movies.toString());
+                                break;
+                            case REMOVED:
+                                txtDataMovies.setText("SE HA QUITADO ALV");
+                                break;
                         }
 
 
-                    });
+
+                    }).subscribe();
         });
     }
 
